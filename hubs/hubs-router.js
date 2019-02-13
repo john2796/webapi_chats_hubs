@@ -107,3 +107,5 @@ server.post("/:id/messages", async (req, res) => {
 });
 
 module.exports = server;
+
+// view ==> actionCreator ==> middleware ==> reducer ==> store ==> gobacktoview
